@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="OrangeHRMLogin">
+		<classes>
+			<class name="selenium.Tests.EcoEatsOrder">
+				<methods>
+					<include name="ecoeatsOrder" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!--
+	Test -->
+	<test name="TestGoogle">
+		<classes>
+			<class name="selenium.Tests.FirstTest">
+				<methods>
+					<include name="TestGoogle" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!--
+Suite -->
